@@ -2,28 +2,26 @@
 
 Here you can find Immotionar workshops and courses material
 
-If you want to know more about Immotionar and its full body virtual reality products, check the official [ImmotionAR website](http://www.immotionar.com)
+If you want to know more about Immotionar and its full body virtual reality products, check the official [Immotionar website](http://www.immotionar.com)
 
 Available workshops
 -----------------
-This is the list of available workshops:
-* WorkshopInteractions: a 20-minutes workshop about building a scene with simple look-interactions for mobile VR headsets
+This is the list of all available workshops:
+* **Workshop-Interactions**: a 20-minutes workshop about building a scene with simple gaze interactions for mobile VR headsets
+
+    Shows a basic interaction mechanism for mobile VR headsets, with objects reacting at users looking at them. A simple crosshair is also present.
+    To make the sample work in VR, import your headset Unity plugin and subsitute the FPSPlayerController inside InteractionsRoom scene with the PlayerController/CameraRig of your headset.
+    This workshop has been presented for the first time at "GDG Sognando la Realta", on February 2nd, 2017
 
 Project Layout
 --------------
 Each folder contains a particular workshop. Inside each folder you can find two subfolders:
-* **<workshop_name>_Unity3DProject** - Contains the full featured and finished Workshop project, ready to be built. Before building, some copyright-protected packages may need to be imported
-* **<workshop_name>_UnityPackage** - Contains the package you can import into your blank Unity scene to attend the workshop or re-do it from scratch
-
-WorkshopInteractions
------------------------
-Shows a basic interaction mechanism for mobile VR headsets, with objects reacting at users looking at them. A simple crosshair is also present.
-To make the sample work in VR, import your headset Unity plugin and subsitute the FPSPlayerController inside InteractionsRoom scene with the PlayerController/CameraRig of your headset.
-This workshop has been presented for the first time at GDG Sognando la Realtà, on February, 2nd 2017
+* **workshop_name_Unity3DProject** - Contains the full featured and finished Workshop project, ready to be built. Before building, some copyright-protected packages may need to be imported
+* **workshop_name_UnityPackage** - Contains the package you can import into your blank Unity scene to attend the workshop or re-do it from scratch
 
 Hardware Pre-requisites
 -----------------------
-* A PC that supports Unity3D *
+* A PC that supports Unity 3D
 * A VR headset, if you want to run the samples in VR
 
 Software Pre-requisites
@@ -49,7 +47,7 @@ License
 -------
 The ImmotionRoom SDK Samples are licensed under the MIT License (MIT).
 
-Copyright (C) 2014-2017 Immotionar
+Copyright (C) 2017 Immotionar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
